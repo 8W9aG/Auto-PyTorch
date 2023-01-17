@@ -48,11 +48,6 @@ setuptools.setup(
     install_requires=requirements,
     include_package_data=True,
     extras_require={
-        "forecasting": [
-            "gluonts>=0.10.0",
-            "sktime",
-            "git+https://github.com/8W9aG/pytorch-forecasting.git",
-        ],
         "test": [
             "matplotlib",
             "pytest",
