@@ -19,4 +19,3 @@ flaky
 tabulate
 gluonts>=0.10.0
 sktime
--e git+https://github.com/8W9aG/pytorch-forecasting.git
