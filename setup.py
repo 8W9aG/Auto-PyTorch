@@ -51,7 +51,7 @@ setuptools.setup(
         "forecasting": [
             "gluonts>=0.10.0",
             "sktime",
-            "pytorch-forecasting",
+            "git+https://github.com/8W9aG/pytorch-forecasting.git",
         ],
         "test": [
             "matplotlib",
